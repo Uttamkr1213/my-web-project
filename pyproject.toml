@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-web-project"
+version = "0.1.0"
+description = ""
+authors = ["uttamk6614 <26056401-uttamk6614@users.noreply.replit.com>"]
+readme = "README.md"
+packages = [{include = "my_web_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
