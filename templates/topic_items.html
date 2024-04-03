@@ -1,0 +1,19 @@
+<div style="margin-bottom:16px">
+  <div class="row">
+    <div class="col-10">
+    <h5 style="color: rgb(60,60,60); margin-bottom:2px">{{ topic['title'] }}</h5>
+      <div>
+        <b>Description:</b> {{ topic['description'] }}
+          {% if "posted_by" in topic %}
+          <div>
+            <b>Posted by:</b> {{ topic['posted_by'] }}
+          </div>
+          {% endif %}
+      </div>
+    </div>
+    <div class="col-2 md-auto mt-3" style="padding:10px 10px">
+      <button type="button" class="btn btn-success">Open</button>
+    </div>
+  </div>
+</div>
+
