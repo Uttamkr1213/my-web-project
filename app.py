@@ -8,7 +8,7 @@ topics_dict= [
   {
   "title":"Forest",
   "description":"Forest cutting in MP"
-  }
+  },
   {
     "title":"Election 2024",
     "description":"Do BJP will win election 2024"
